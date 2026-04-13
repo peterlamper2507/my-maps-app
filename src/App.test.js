@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders map element', () => {
+  const { container } = render(<App />);
+  const mapElement = container.querySelector('gmp-map-3d');
+  expect(mapElement).toBeInTheDocument();
 });
