@@ -1,3 +1,15 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+gmp-map-3d {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
 body, html {
   margin: 0;
   padding: 0;
